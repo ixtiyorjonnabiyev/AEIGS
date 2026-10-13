@@ -1,0 +1,105 @@
+{
+  "top_bar_tickers": [
+    {
+      "symbol": "^GSPC",
+      "label": "S&P 500",
+      "price": "5,088.80",
+      "change": "+0.45%",
+      "is_positive": true
+    },
+    {
+      "symbol": "^TNX",
+      "label": "10Y UST",
+      "price": "4.24%",
+      "change": "-3.2 bps",
+      "is_positive": false
+    },
+    {
+      "symbol": "^IXIC",
+      "label": "NASDAQ",
+      "price": "16,002.55",
+      "change": "+0.82%",
+      "is_positive": true
+    },
+    {
+      "symbol": "^DJI",
+      "label": "DOW JONES",
+      "price": "38,989.84",
+      "change": "+0.21%",
+      "is_positive": true
+    },
+    {
+      "symbol": "^VIX",
+      "label": "CBOE VIX",
+      "price": "13.75",
+      "change": "-1.45%",
+      "is_positive": false
+    },
+    {
+      "symbol": "CL=F",
+      "label": "CRUDE OIL",
+      "price": "78.26",
+      "change": "+1.12%",
+      "is_positive": true
+    },
+    {
+      "symbol": "GC=F",
+      "label": "GOLD",
+      "price": "2,034.40",
+      "change": "+0.35%",
+      "is_positive": true
+    },
+    {
+      "symbol": "BTC-USD",
+      "label": "BITCOIN",
+      "price": "62,450.00",
+      "change": "+4.18%",
+      "is_positive": true
+    }
+  ],
+  "portfolio_summary": {
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "GOOGL",
+      "AMZN",
+      "JPM",
+      "TSLA",
+      "SMCI",
+      "NVDA",
+      "ARWR"
+    ],
+    "max_sharpe_portfolio": {
+      "expected_return": "28.50%",
+      "volatility": "16.20%",
+      "sharpe_ratio": "1.51",
+      "weights": {
+        "AAPL": "15.00%",
+        "MSFT": "25.00%",
+        "NVDA": "30.00%",
+        "AMZN": "10.00%",
+        "JPM": "2.00%",
+        "TSLA": "8.00%",
+        "GOOGL": "5.00%",
+        "SMCI": "3.00%",
+        "ARWR": "2.00%"
+      }
+    },
+    "min_variance_portfolio": {
+      "expected_return": "14.20%",
+      "volatility": "9.80%",
+      "sharpe_ratio": "1.04",
+      "weights": {
+        "AAPL": "30.00%",
+        "MSFT": "35.00%",
+        "JPM": "20.00%",
+        "GOOGL": "15.00%",
+        "NVDA": "0.00%",
+        "AMZN": "0.00%",
+        "TSLA": "0.00%",
+        "SMCI": "0.00%",
+        "ARWR": "0.00%"
+      }
+    }
+  }
+}
